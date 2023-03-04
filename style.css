@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin: auto ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+header {
+    background-color: hsl(193, 100%, 96%);
+    background:hsl(193, 100%, 96%) url("./images/bg-hero-desktop.svg") no-repeat center ;
+    padding: 1.5em 3.5em;
+}
+.logo {
+    height: 1.3rem;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5em;
+} 
+.button {
+    display: inline-block; 
+    border: none;
+    outline: none;
+    border-radius: 2em;
+    cursor: pointer;
+} 
+.try-it-free {
+    background-color: white;
+    color: hsl(208, 11%, 55%);
+    padding: 0.5em 1em;
+}
+.hero-section { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10em;
+    line-height: 1.5;
+}
+.hero-section h1 {
+    font-size: 1.98rem;
+    max-width: 12em;
+    padding-bottom: 0.5em;
+}
+.hero-section p {
+    font-size: 0.95rem;
+    padding-bottom: 1em;
+   padding-right: 8em;
+   
+}
+.hero-image {
+    height: 23rem;
+}
+.get-started {
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.9em 2.2em;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
+}
+main{
+   display: grid;
+   gap: 2em;
+   padding-top: 8em;
+}
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9em;
+    width: 67em;
+    padding: 2em 6em 2em;
+    line-height: 1.5;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px -10px;
+}
+.boxes img {
+    height: 16em;
+}
+.write-up {
+    margin-top: 4em;
+}
+.boxes h2 {
+    color: hsl(192, 100%, 9%);
+}
+.boxes p {
+    margin-top: 0.6em;
+    color:hsl(208, 11%, 55%);
+    font-size: 0.95rem;
+    width: 25rem;
+}
+.ready-to-build {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    width: 56em;
+    padding: 2em ;
+    margin-top: 6em;
+    box-shadow: 0px 0px 20px -10px;
+    border-radius: 0.5em;
+    z-index: 5;
+    margin-bottom: -2em;
+}
+.ready-to-build h2 {
+    padding-bottom: 1.2em;
+    color: hsl(192, 100%, 9%); 
+}
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+    z-index: -1;
+    padding: 5em 2em 3em 4em; 
+    width: 80em;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+.logo-two  {
+    margin-bottom: 0.8em;
+    filter: invert(100%) sepia(0%) saturate(75%) hue-rotate(147deg) brightness(117%) contrast(115%);
+}
+.foot-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4em;   
+}
+.first-foot span, .span {
+    width: 25em;
+    padding-left: 0.5em;
+    padding-bottom: 0.8em;
+}
+.foot-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: -2em;
+}
+.foot-links a {
+    color: hsl(208, 11%, 55%);
+}
+.first-foot {
+    display: flex;
+}
+.copyright {
+    text-align: right;
+    font-size: 0.7rem;
+    margin-right: 5em;
+}
