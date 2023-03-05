@@ -19,7 +19,6 @@ h1 h2 {
     font-size: 3rem;
 }
 header {
-    background-color: hsl(193, 100%, 96%);
     background:hsl(193, 100%, 96%) url("./images/bg-hero-desktop.svg") no-repeat center ;
     padding: 1.5em 3.5em;
 }
@@ -57,8 +56,7 @@ header {
 .hero-section p {
     font-size: 0.95rem;
     padding-bottom: 1em;
-   padding-right: 8em;
-   
+    padding-right: 8em;
 }
 .hero-image {
     height: 23rem;
@@ -132,7 +130,8 @@ footer {
 .foot-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 4em;   
+    gap: 4em; 
+    margin-bottom: 1em;  
 }
 .first-foot span, .span {
     width: 25em;
@@ -154,4 +153,68 @@ footer {
     text-align: right;
     font-size: 0.7rem;
     margin-right: 5em;
+}
+@media screen and (max-width:765px) {
+   .container {
+        max-width: 375px;
+        margin: auto 1px;
+        padding: auto;
+        text-align: center;
+   } 
+   .hero-section { 
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: auto auto;
+    }
+    .hero-write {
+         /* padding-left: 4em; */
+    }
+    .hero-section h1 {
+        margin: auto;
+    }
+    .hero-section p {
+        margin: auto;
+        padding-right: 0em;
+        width: 22.4em;
+    }
+    .hero-image {
+        padding-left: 3em;
+        height: 22rem;
+        margin-top: -5em;
+    }
+    header {
+        background:hsl(193, 100%, 96%) url("./images/bg-hero-mobile.svg") no-repeat center ;
+    }
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.5em;
+        width: auto;
+        padding: auto;
+    }
+    .write-up {
+        margin-top: 1.5em;
+    }
+    .boxes p {
+        width: auto;
+        margin:  auto 6.5em;
+    }
+    .ready-to-build {
+        width: auto;
+    }
+    footer {
+        width: 100%;
+        text-align: left;
+    }
+    .foot-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .logos {
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+        margin: auto;
+    }
 }
