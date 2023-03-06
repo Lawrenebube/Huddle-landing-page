@@ -45,7 +45,7 @@ header {
 .hero-section { 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5em;
+    gap: 3em;
     line-height: 1.5;
 }
 .hero-section h1 {
@@ -56,7 +56,7 @@ header {
 .hero-section p {
     font-size: 1rem;
     padding-bottom: 1em;
-    width: 29em;
+    padding-right: 8.5em;
 }
 .hero-image {
     height: 23rem;
@@ -180,7 +180,7 @@ button:hover {
     .hero-image {
         padding-left: 3em;
         height: 23rem;
-        margin-top: -2em;
+        margin-top: -1em;
     }
     header {
         background:hsl(193, 100%, 96%) url("./images/bg-hero-mobile.svg") no-repeat center ;
