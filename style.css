@@ -68,7 +68,7 @@ header {
     font-size: 0.8rem;
     color: white;
 }
-main {
+.main {
    display: grid;
    gap: 2em;
    padding-top: 8em;
