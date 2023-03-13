@@ -13,7 +13,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-h1 h2  {
+h1 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 3.2rem;
@@ -68,7 +68,7 @@ header {
     font-size: 0.8rem;
     color: white;
 }
-.main {
+main {
    display: grid;
    gap: 2em;
    padding-top: 8em;
@@ -110,9 +110,7 @@ header {
     z-index: 5;
     margin-bottom: -2em;
 }
-.ready-to-build p {
-    font-weight: 600;
-    font-size: 1.5rem;
+.ready-to-build h2 {
     padding-bottom: 1.2em;
     color: hsl(192, 100%, 9%); 
 }
